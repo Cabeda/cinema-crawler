@@ -91,16 +91,6 @@ const writeDataToJson = function(jsonObj) {
   });
 };
 
-/***
- * Data cleaning of movies web scrapping
- */
-const dataCleaning = function(data) {
-    for (const movie of data) {
-    }
-
-  return newData;
-};
-
 let url = "http://cinemas.nos.pt/pages/cartaz.aspx";
 
 // Start function
